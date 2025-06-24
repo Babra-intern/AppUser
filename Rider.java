@@ -18,7 +18,7 @@ public class Rider extends AppUser implements PaymentCapable{
 
 
     public void processPayment(double amount){
-        System.out.println(name + " paid " + amount + " GH via " + preferredPaymentMethod);
+        System.out.println("\n"+ name + " paid " + amount + " GH via " + preferredPaymentMethod);
     }
 
 
@@ -30,8 +30,8 @@ public class Rider extends AppUser implements PaymentCapable{
 
     @Override
     public String  toString(){
-        return "Rider Info " + "\nName :" + name + "\nPhoneNumber :" + phoneNumber + "\npreferredPaymentMethod" + preferredPaymentMethod +
-        "\nRideCount" + rideCount;
+        return "\nRider Info " + "\nName :" + name + "\nPhoneNumber :" + phoneNumber + "\nPaymentMethod: " + preferredPaymentMethod +
+        "\nRideCount: " + rideCount;
     }
 
 }

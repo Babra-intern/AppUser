@@ -7,11 +7,11 @@ public class Main {
 
         Driver driver2 = new Driver("Beatrice","000000000","A-25","red car");
         driver2.displayProfile();
-        driver2.toString();
+        System.out.println(driver2.toString());
 
 
         Rider rider1 = new Rider("Abraham");
-        rider1.toString();
+        System.out.println(rider1.toString());
         rider1.processPayment(20.0);
        
     }

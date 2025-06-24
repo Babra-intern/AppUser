@@ -23,8 +23,8 @@ public class Driver extends AppUser {
 
     @Override
     public String toString(){
-        return "Driver Info " + "\nName :" + name + "\nPhoneNumber :" + phoneNumber + "\nlincenseNumberString" + lincenseNumberString +
-        "\nvehicleInfo" + vehicleInfo;
+        return "\nDriver Info " + "\nName :" + name + "\nPhoneNumber :" + phoneNumber + "\nlincenseNumberString: " + lincenseNumberString +
+        "\nvehicleInfo: " + vehicleInfo;
     }
     
 
