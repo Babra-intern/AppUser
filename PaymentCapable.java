@@ -1,5 +1,5 @@
 public interface PaymentCapable {
 
-    void processPayment(double amount);
-    
+    public void processPayment(double amount);
+
 }
