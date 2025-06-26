@@ -2,7 +2,7 @@ abstract class AppUser {
     final String userId = "";
 
     private String name;
-    
+
     private String phoneNumber;
 
     abstract String getUserType();
